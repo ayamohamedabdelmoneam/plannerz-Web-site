@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage</title>
+    </head>
+    <body>
+   <header>
+   <h1> <img id="logo" src="letter-p.png" alt="logo" height="80px" width="80px"> Plannerz</h1> 
+          <div id="bar">
+          <a class="a" href="">Contact Us</a>
+          <a class="a" href="">About</a>
+          <a class="a" href="">Events</a> 
+          </div> 
+          </header>
+    <br>
+    <!--who are plannerz section-->
+ <div id="who" >
+    <table>
+    <tr> 
+    <td ><h2>Who are Plannerz?</h2>
+         <p>We are Event organizers who can plan anything that you want from a Prom event to Huge Musical parties. Since 1990 Plannerz has been helping clients solve problems.
+         We provide audio visual equipment and event production services for meetings, galas, fundraisers, rallies, concerts, races, commencements, and other gatherings.
+         Work with our team to create an experience that matches your vision. </p></td>
+    <td><div id="reg">
+      <form id="form1">
+      <legend class="in1">Join Us</legend>
+      <label class="in">Username:<br><input type="text" name="username"></label><br>
+      <label class="in">Password:<br><input type="password" name="password"></label><br>
+      <label class="in"><input type="submit" value="Login"></label>
+      <label class="in"><p class="in" >Not a Member? <a id="sign" href="register.php">Sign Up</a></p></label>
+      </form> </div></td></tr>
+    </table>
+    </div>
+    <!--events section-->
+      <div id="events">
+        <h2>Our Events</h2>
+      <table> 
+       <tr id="event1">
+        <td ><figure><figcaption>Parties</figcaption> <img class="i"src="festival.jpg"width="350px" height="250px"></figure></td>
+        <td ><figure><figcaption>Weddings</figcaption> <img class="i" src="wedding.jpg"width="350px" height="250px"></figure></td>
+        <td ><figure><figcaption>Meetings</figcaption> <img class="i" src="meeting.jpg"width="350px" height="250px"></figure></td>
+        <td ><figure><figcaption>Events</figcaption> <img class="i" src="event.jpg"width="350px" height="250px"></figure></td>
+       </tr> 
+      </table>
+      </div>
+<!--elements section-->
+    <div><section><h2>Audio Visual Equipment and Event Production Services</h2>
+        <article> <p >Technical and Special Event Excellence.
+            We've got relationship goals: start with a positive first impression,
+            then deliver an outcome that far exceeds your expectations.
+            Event Tech cultivates an environment of connectivity, beautifully linking technical
+            and creative solutions and smoothly managing the process along the way.</p>
+              <table id="items">
+                <tr><td> <figure><img  src="audio.png"width="100px" height="80px"><figcaption class="f1">Event Audio</figcaption></figure></td>
+                    <td><figure><img  src="video.png"width="100px" height="80px"><figcaption class="f1">Event Video</figcaption></figure></td>
+                    <td><figure><img  src="lightbulb.png"width="100px" height="80px"><figcaption class="f1">Event Lighting</figcaption></figure></td>
+                    </tr> 
+              </table>
+        </article>
+        </section> </div>
+    <!--service section-->
+  <div>  <section class="service" id="service">
+      <h1 class="heading"> our <span> service</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="map-marker-alt"></i>
+          <h3>Selection</h3>
+          <p>You can select our type of events if you don't have something in mind.</p>
+        </div>
+        <div class="box">
+          <i class="envelope"></i>
+          <h3>Invitation Card</h3>
+          <p>We also print your event invitation cards according to your design and fonts.</p>
+        </div>
+        <div class="box">
+          <i class="music"></i>
+          <h3>Entertainment </h3>
+          <p>Of course, any event needs enterainment factors that can hype up the night.</p>
+        </div>
+        <div class="box">
+          <i class="utensils"></i>
+          <h3>Food and drinks </h3>
+          <p>You can pick your food and drinks from our very special Menu.</p>
+        </div>
+        <div class="box">
+          <i class="photo-video"></i>
+          <h3>Photos and Videos </h3>
+          <p>We have our team of Photograpghers that can make amazing memories of your event.</p>
+        </div>
+        <div class="box">
+          <i class="birthday-cake"></i>
+          <h3>Custom food</h3>
+          <p>You want custom food that don't exist in our menu? Don't worry we'll make it for you.</p>
+        </div>
+      </div>
+    </section></div>
+    <!--about section-->
+   <div class="aboutus" id="aboutus">
+      <h1 class="heading"><span>about</span> us </h1>
+      <div class="row">
+        <div class="image">
+          <img src="event.jpg" height="300px" width="200px">  
+          <p> We will give a very special celebration for you.<br>An event organizer is the person who schedules and runs the event and also reports on it.<br> Their job is to make sure the event they have organized runs smoothly and to fix any problems that may come up during the event.
+          </p>
+      </div>
+   </div> </div>
+    <!--price section-->
+    <div id="prices">
+      <div id="price1"> <div class="pricing-plan-container">
+      <section class="pricing-plan"> 
+        <div class="pricing-plan-header"> 
+          <h1 class="title">For Birthdays</h1>
+          <h2 class="pricing-plan-summary">For those getting started</h2>
+          <div class="pricing-plan-description">
+            <ul class="pricing-plan-list">
+              <li class="check">Full service </li>
+              <li class="check">Decoration </li>
+              <li class="check">Music and Photos </li>
+              <li class="check">Food and Drinks </li>
+              <li class="check">Invitation Card </li>
+            </ul>
+          </div>
+          <div class="pricing-plan-action">
+            <p class="pricing-plan-cost">EGP 450</p>
+            <a href="./" class="pricing-plan-button"> purchase</a>
+          </div>
+          </div>
+      </section>
+      </div>
+    </div>
+    <div id="price2">
+      <div class="pricing-plan-container">
+        <section class="pricing-plan"> 
+          <div class="pricing-plan-header"> 
+            <h1 class="title">For Weddings</h1>
+            <h2 class="pricing-plan-summary">For those getting started</h2>
+            <div class="pricing-plan-description">
+              <ul class="pricing-plan-list">
+                <li class="check">Full service </li>
+                <li class="check">Decoration </li>
+                <li class="check">Music and Photos </li>
+                <li class="check">Food and Drinks </li>
+                <li class="check">Invitation Card </li>
+              </ul>
+            </div>
+            <div class="pricing-plan-action">
+              <p class="pricing-plan-cost">EGP 1500</p>
+              <a href="./" class="pricing-plan-button"> purchase</a>
+            </div>
+            </div>
+        </section>
+        </div>
+      </div>
+      <div id="price3">
+        <div class="pricing-plan-container">
+          <section class="pricing-plan"> 
+            <div class="pricing-plan-header"> 
+              <h1 class="title">For Conserts</h1>
+              <h2 class="pricing-plan-summary">For those getting started</h2>
+              <div class="pricing-plan-description">
+                <ul class="pricing-plan-list">
+                  <li class="check">Full service </li>
+                  <li class="check">Decoration </li>
+                  <li class="check">Music and Photos </li>
+                  <li class="check">Food and Drinks </li>
+                  <li class="check">Invitation Card </li>
+                </ul>
+              </div>
+              <div class="pricing-plan-action">
+                <p class="pricing-plan-cost">EGP 3000</p>
+                <a href="./" class="pricing-plan-button"> purchase</a>
+              </div>
+              </div>
+          </section>
+          </div>
+        </div>
+        <div id="price4">
+          <div class="pricing-plan-container">
+            <section class="pricing-plan"> 
+              <div class="pricing-plan-header"> 
+                <h1 class="title">For Others</h1>
+                <h2 class="pricing-plan-summary">For those getting started</h2>
+                <div class="pricing-plan-description">
+                  <ul class="pricing-plan-list">
+                    <li class="check">Full service </li>
+                    <li class="check">Decoration </li>
+                    <li class="check">Music and Photos </li>
+                    <li class="check">Food and Drinks </li>
+                    <li class="check">Invitation Card </li>
+                  </ul>
+                </div>
+              
+                <div class="pricing-plan-action">
+                  <p class="pricing-plan-cost">EGP 950</p>
+                  <a href="./" class="pricing-plan-button"> purchase</a>
+                </div>
+                </div>
+            </section>
+            </div>
+          </div></div> 
+    <!--review section-->
+    <div class="review" id="review">
+      <h1 class="heading">clients <span>review</span></h1>
+      <div id="review1"> <div class="swiper-wrapper">
+         <div class="swiper-slide box">
+           <i class="quote-right"></i>
+           <div class="user">
+             <img src="hassan.jpeg" alt="">
+             <div class="user-info">
+               <h3>Hassan</h3>
+               <span>Happy client</span>
+             </div>
+           </div>
+           <p>I am very much impressed with all arrangements, decorations and event planning. They understand client's need and manage very well</p>
+         </div></div></div>
+      <div id="review2">
+         <div class="swiper-wrapper">
+         <div class="swiper-slide box">
+           <i class="quote-right"></i>
+           <div class="user">
+             <img src="ahmed.jpeg" alt="">
+             <div class="user-info">
+               <h3>Ahmed</h3>
+               <span>Happy client</span>
+             </div>
+           </div>
+           <p>I am very much impressed with all arrangements, decorations and event planning. They understand client's need and manage very well</p>
+         </div></div></div>
+      <div id="review3"> <div class="swiper-wrapper">
+       <div class="swiper-slide box">
+         <i class="quote-right"></i>
+         <div class="user">
+           <img src="amr.jpeg" alt="">
+           <div class="user-info">
+             <h3>Amr</h3>
+             <span>Happy client</span>
+           </div>
+         </div>
+         <p>I am very much impressed with all arrangements, decorations and event planning. They understand client's need and manage very well</p>
+       </div></div></div>
+   </div>
+ <!--footer-->
+     <footer><div id="bo">
+        <table class="about">
+            <tr><th>About</th><th>Support</th></tr>
+          <tr>
+           <td><a href=""> About Plannerz</a></td>
+           <td><a href=""> Support & Help team</a></td></tr>
+          <tr>
+            <td><a href="" >Our Event Space</a></td>
+            <td><a href="">Phone</a></td></tr>  
+            <tr>
+                <td><a href="">Contact</a></td>
+                <td>Email:<a href="">Plannerz_SUPPORTteam@gmail.com</a></td></tr>
+            <tr>
+                <td><a href="">Email:Plannerz_ForYou@gmail.com</a></td></tr>
+            <tr><td><a href="">Privacy Policy</a></td></tr>
+            <tr><td><a href="" >Advertise</a></td></tr>
+        </table>
+                <div class="pr"> 
+                  <h4>Social Media</h4>
+               
+                          <ul class="social" >
+                    <li><a  href="https://www.facebook.com/" target="_blank"><img  src="facebook (2).png" width="40px" height="40px" alt="Facebook">&nbsp;</a></li>
+                    <li><a  href="https://www.instagram.com/" target="_blank"><img src="instagram.png" width="40px" height="40px" alt="Instagram">&nbsp;</a></li>
+                   <li><a  href="https://www.twitter.com/" target="_blank"><img  src="twitter.png" width="40px" height="40px" alt="Twitter">&nbsp;</a></li>
+                        </ul>
+                      </div>
+                <div>
+                    <form>
+                        <input type="search" name="search" placeholder="Search..">
+                        <input type="submit" value="Search"> 
+                      </form>
+            </div> 
+          </div>
+        </footer> 
+          </body>
+    </html>
